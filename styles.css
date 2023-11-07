@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-one {
+    background-color: #1F2937;    
+    display: flex;
+    padding: 100px;
+    gap: 100px;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
